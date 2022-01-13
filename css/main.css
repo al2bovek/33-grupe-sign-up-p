@@ -4,25 +4,28 @@ body * {
   padding: 0;
   vertical-align: top;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-body {
-  background-color: #33b5db;
+  
   
 }
+body {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+background-color: blanchedalmond; 
+  }
 .box {
-  display: inline-block;
-  width: 800px;
+
+   width: 800px;
   margin-top: 100px;
   margin-left: calc(50% - 400px);
 }
-.box > .left-column {
+.box > .l-column {
   width: 40%;
   padding: 40px;
   float: left;
+  background-image: url(../img/hill.png);
+  background-size: cover;
   background-color: blue;
 }
-.box > .right-column {
+.box > .r-column {
   width: 60%;
   padding: 60px;
   float: left;
