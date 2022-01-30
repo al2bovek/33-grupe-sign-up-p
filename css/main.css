@@ -7,38 +7,70 @@ body * {
 }
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: rgb(233, 229, 224);
+  background-color: blue;
+}
+.background-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/hill.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
 }
 
 .box {
-  
+  display: inline-block;
   width: 800px;
-  margin-top: 100px;
-  margin-left: calc(50% - 400px);
+  /* margin-top: 100px; */
+  /* margin-left: calc(50% - 400px); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .box > .l-column {
   width: 40%;
   padding: 40px;
   float: left;
   background-color: rgb(81, 81, 238);
+  color: #fff;
   background-image: url(../img/hill.png);
   background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
 }
 .box > .r-column {
   width: 60%;
   padding: 60px;
-  float: left;
+  float: right;
   background-color: #fff;
+  position: relative;
 }
 .m-title {
   font-weight: normal;
 }
 .b-links {
   color: #fff8;
-}
-.b-links > .link {
-  color: #fff8;
+  position: absolute;
+  bottom: 20px;
 }
 .b-links > .link:hover {
   color: #fff;
 }
+.bottom-link > .link:hover{
+  color: #fff;
+}
+.close {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+}
+
