@@ -1,5 +1,5 @@
-# Sign up<br>
-https://al2bovek.github.io/33-grupe-sign-up-project <br>
+# Sign up
+
 
 33 group website project
 
